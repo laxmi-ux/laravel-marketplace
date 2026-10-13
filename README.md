@@ -356,13 +356,12 @@ Generate the application key:
 php artisan key:generate
 ```
 
-Update `.env` with your local application and database settings. For example:
-
 ```dotenv
 APP_NAME="Laravel Marketplace"
 APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://127.0.0.1:8000
+
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -371,8 +370,6 @@ DB_DATABASE=marketplace
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-
-Adjust the database username and password to match your local MySQL configuration. Do not overwrite an existing working `.env` file without backing it up.
 
 ### 5. Create the Database
 
