@@ -357,7 +357,7 @@ php artisan key:generate
 ```
 
 ```dotenv
-APP_NAME="Laravel Marketplace"
+APP_NAME=Laravel
 APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://127.0.0.1:8000
